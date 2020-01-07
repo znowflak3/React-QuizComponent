@@ -15,6 +15,5 @@ class Quiz extends Component
       <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}/>
     );
   }
-
 }
 export default Quiz
