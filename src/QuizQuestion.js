@@ -13,8 +13,7 @@ class QuizQuestion extends Component
     if(buttonText === this.props.quiz_question.answer) {
       this.setState({ incorrect_answer: false})
       this.props.showNextQuestionHandler();
-    }
-    else{
+    } else {
       this.setState({ incorrectAnswer : true })
     }
   }
